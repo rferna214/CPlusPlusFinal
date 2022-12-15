@@ -49,6 +49,8 @@ int main() {
     b2.getBMI(weight,height,bmi);
 
     // display values in local variables to stdout
+    cout << "Height 2 : " << height << endl;
+    cout << "Weight 2 : " << weight << endl;
     cout << "BMI 2 : " << bmi << endl;
 
     // call method on t1 that will test if it is equal to t2
